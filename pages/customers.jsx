@@ -1,8 +1,8 @@
 import React from "react";
 import { BsPersonFill, BsThreeDotsVertical } from "react-icons/bs";
-import data from "../data/data.js";
+import {data} from "../data/data";
 
-const customers = () => {
+const Customers = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       <div className="flex justify-between p-4">
@@ -48,4 +48,4 @@ const customers = () => {
   );
 };
 
-export default customers;
+export default Customers;
